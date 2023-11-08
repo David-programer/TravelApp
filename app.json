@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "travelapp",
+    "slug": "travelapp",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We use the client's location to know the specific point where the user requests the service and thus determine where the service will be sent.",
+        "NSLocationAlwaysUsageDescription": "We use the client's location to determine its position, so that the service will reach the client in that position."
+      },
+      "supportsTablet": true,
+      "buildNumber": "4",
+      "bundleIdentifier": "com.gbtech.travelapp"
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gbtech.travelapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "31160e82-6043-4d9b-8261-f401f94dfbfc"
+      }
+    },
+    "owner": "gbtech"
+  }
+}
